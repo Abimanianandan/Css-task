@@ -1,0 +1,117 @@
+
+.one{
+    margin-top: 5%;
+    color: white;
+    height: 500px;
+    background-color: rgb(127,192,202) !important; 
+}
+h1{
+    display: flex;
+   
+    
+}
+.title-des{
+    
+  
+    font-size: large;
+    margin-top:30px !important;
+}
+.btn{
+    margin-top: 20px !important;
+   
+     padding: 10px !important;
+     border-radius: 50px !important;
+     background-color: white !important;
+     font-size: x-large !important;
+     font-weight:700  !important;  
+}
+.btn:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.project-head{
+    display: flex;
+    justify-content: center;
+    margin-top: 5% !important;
+}
+.img-des{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: larger;
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+.img-container{
+      display: flex; 
+      flex-flow: row wrap;
+     justify-content: center;
+     gap: 20px;
+}
+.people-review{
+    display: flex;
+    float: left; 
+}
+.review-container{
+    display: block;
+    margin-top: 30px;
+    height: 35rem;
+    background-color: rgb(51,51,51);
+    color: white;
+}
+
+.card-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 5% !important;
+  gap:20px;
+}
+.card{
+  display: flex !important;
+  /* margin-top: 10% !important; */
+  width: 350px !important;
+  height: 350px !important;
+  flex-flow: row wrap !important;
+  background-color: white !important;
+  color: black;   
+}
+.card-body{
+    
+    padding: 10% !important;
+}
+.our-projrct{
+    margin-top: 5%;
+}
+.footer{
+  background-color: rgb(51,51,51);
+  color: white;  
+  display: grid;
+  grid-template-columns: repeat(3,1fr); 
+  justify-content: center !important;
+  align-items: center;
+}
+.center{
+   display: flex;
+   gap: 30px;
+   justify-content: center ;
+   margin-top: 50%;
+   flex-direction: column ;
+}
+svg{
+    height: 40px;
+    width: 40px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;   
+    color: white;
+    margin-top: 15%;
+}
+a{
+    color: rgb(171,218,199) !important;
+}
